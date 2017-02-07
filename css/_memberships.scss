@@ -1,0 +1,150 @@
+$colorBlue: darkslateblue;
+$colorGreen: seagreen;
+$colorBlack: black;
+
+
+.row-3 {
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 10px 100px 20px 90px;
+    margin: 0px 100px 40px 100px;
+    display: flex;
+        .column-3 {
+            flex: 3;
+            margin: 40px 10px 0px 10px;
+            width: 100px;
+            background-color:whitesmoke;
+                .membership {
+                    border-style: hidden;
+                    font-size: 25px;
+                    text-align: center;
+                    background-color: $colorGreen;
+                    color:lightslategray;
+                        .perks {
+                            border-style: solid;
+                            border-width: .25px;
+                            border-color: lightgray;
+                            text-align: center;
+                            background-color: whitesmoke;
+                            padding: 15px 15px 15px 15px;
+                            margin: 0;
+                                .membership:first-child {
+                                    color: white;
+                                }
+                            }
+                    }
+            }   
+}
+.choose {
+    padding: 25px 130px 25px 115px;
+    background-color: white;
+    text-align: center;
+    border: solid;
+    border-color: lightgray;
+    background-color: white; 
+    margin: 0;
+        button {
+        border-radius: 25px;
+        border-width: .5px;
+        padding: 8px 20px 8px 20px;
+        background-color: white; 
+        }
+}
+.perks {
+    border-style: solid;
+    border-width: .25px;
+    border-color: lightgray;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px 0px 15px 0px;
+}
+.perks-blue {
+    background-color: $colorBlue;
+}
+.perks-black {
+    background-color: $colorBlack;
+}
+// p {
+//     margin: 0;
+//     padding: 10px 50px 10px 50px;
+//          .perks {
+//         border-style: solid;
+//         border-width: .25px;
+//         border-color: lightgray;
+//         text-align: center;
+//         background-color: whitesmoke;
+//         padding: 15px 0px 15px 0px;
+//          }
+// }
+// .column-left {
+//     margin-left: 150px;
+//     flex: 3;
+//     /*padding: 0px 0px 25px 0px;*/
+//     margin: 40px 10px 0px 10px;
+//     width: 100px;
+//     background-color: seagreen;
+// }
+// .column-center {
+//     flex: 3;
+//     /*padding: 0px 0px 25px 0px;*/
+//     margin: 40px 10px 0px 10px;
+//     width: 100px;
+//     background-color: darkslateblue;
+
+// }
+// .column-right {
+//     margin-right: 175px;
+//     flex: 3;
+//     /*padding: 0px 0px 25px 0px;*/
+//     margin: 40px 10px 0px 10px;
+//     width: 100px;
+//     background-color: black;
+// }   
+// .perks {
+//     border-style: solid;
+//     border-width: .25px;
+//     border-color: lightgray;
+//     text-align: center;
+//     background-color: whitesmoke;
+//     padding: 15px 0px 15px 0px;
+// }
+// .perks-top {
+//     margin-top: 15px;
+// }
+// .perks-bottom { 
+//     margin-bottom: 15px;
+//     }
+// .membership:first-child {
+//     color: white;
+// }
+// .membership {
+//     border-style: hidden;
+//     padding: 0px;
+//     font-size: 25px;
+//     text-align: center;
+//     background-color: seagreen;
+//     color:lightslategray;
+// }
+// .fee {
+//     /*padding: 0px;*/
+//     font-size: 120px;
+//     text-align: center;
+//     background-color: seagreen;
+//     flex-direction: row;
+//     color: white;
+// }
+// p {
+//     margin: 0;
+//     padding: 10px 50px 10px 50px;
+// }
+// .choose {
+//     padding: 25px 130px 25px 115px;
+//     background-color: white;
+//     text-align: center;
+// }
+// button {
+//     border-radius: 25px;
+//     border-width: .5px;
+//     padding: 8px 20px 8px 20px;
+//     background-color: white; 
+// }

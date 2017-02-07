@@ -1,0 +1,12 @@
+.row-1 {
+    background: black;
+}
+.column-nav { 
+    background:white;
+    color: gray;
+    list-style-type: none;
+    display: flex;
+     li {
+         padding: 0px 15px 0px 15px;
+     }
+}
